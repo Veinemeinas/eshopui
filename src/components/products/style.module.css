@@ -1,0 +1,17 @@
+a {
+	text-decoration: none;
+}
+
+.container {
+	color: black;
+	display: flex;
+	padding: 5px;
+}
+
+.container:hover {
+	background-color: rgb(240, 240, 240);
+}
+
+.container div {
+	width: 200px;
+}
