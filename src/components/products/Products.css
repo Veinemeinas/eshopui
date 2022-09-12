@@ -1,0 +1,60 @@
+h1 {
+	text-align: center;
+}
+
+.addButton {
+	text-align: right;
+	max-width: 800px;
+	margin: 10px auto;
+}
+
+.Products {
+	border: 1px solid black;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.title {
+	border-bottom: 1px solid black;
+	display: flex;
+}
+
+.title div {
+	font-weight: bold;
+	padding: 5px;
+	width: 150px;
+}
+
+.container {
+	border: 1px solid black;
+	margin: 50px auto;
+	padding: 5px;
+	max-width: 500px;
+}
+
+.item {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+ul {
+	margin: 50px auto;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+}
+li {
+	display: flex;
+	margin: 5px;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 5px;
+	width: 100px;
+}
+
+.right {
+	display: flex;
+	justify-content: right;
+}
