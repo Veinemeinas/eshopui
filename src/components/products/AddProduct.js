@@ -19,7 +19,6 @@ function AddProduct() {
 		};
 
 		axios.post("https://localhost:7246/api/product", obj).then((response) => {
-			console.log(response.data);
 			navigate("/");
 		});
 	};
